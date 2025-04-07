@@ -1,0 +1,33 @@
+# AI generate this data
+# User Data Format
+# Format: username|fullname|firstname|lastname|birthday|status|password|posts
+# Posts Format: [post1_content;;post2_content;;...]
+
+john_doe|John Doe|John|Doe|05/15/1990|Living my best life|password123|[Just finished my morning coffee!;;Working on a new project today]
+jane_smith|Jane Smith|Jane|Smith|11/20/1988|Adventure seeker|securepass456|[Heading out for a hike!;;Beautiful sunset today]
+mike_johnson|Mike Johnson|Mike|Johnson|03/10/1995|Tech enthusiast|techie789|[Just got the new smartphone;;Working on some code]
+sarah_wilson|Sarah Wilson|Sarah|Wilson|07/22/1992|Coffee lover|caffeine2023|[Best coffee shop in town;;Need more coffee!]
+alex_chen|Alex Chen|Alex|Chen|09/05/1993|Traveling the world|worldtravel321|[Arrived in Paris!;;Next stop: Rome]
+emma_brown|Emma Brown|Emma|Brown|12/30/1991|Fitness fanatic|fitlife2023|[Morning workout done!;;New personal record today]
+david_lee|David Lee|David|Lee|02/14/1989|Music is my passion|rockstar456|[Practicing guitar;;New song coming soon]
+olivia_martinez|Olivia Martinez|Olivia|Martinez|06/18/1994|Artist and dreamer|creative789|[Working on a new painting;;Gallery opening next week]
+ryan_taylor|Ryan Taylor|Ryan|Taylor|04/25/1990|Sports enthusiast|athlete2023|[Game day!;;Great workout session]
+lisa_wang|Lisa Wang|Lisa|Wang|10/12/1992|Foodie explorer|yummy123|[Tried a new recipe today;;Best sushi ever!]
+
+# Friendship Connections
+# Format: username1 <-> username2
+john_doe <-> jane_smith
+john_doe <-> mike_johnson
+john_doe <-> sarah_wilson
+jane_smith <-> emma_brown
+jane_smith <-> olivia_martinez
+mike_johnson <-> sarah_wilson
+mike_johnson <-> alex_chen
+sarah_wilson <-> lisa_wang
+alex_chen <-> emma_brown
+alex_chen <-> ryan_taylor
+emma_brown <-> david_lee
+david_lee <-> olivia_martinez
+david_lee <-> ryan_taylor
+olivia_martinez <-> lisa_wang
+ryan_taylor <-> lisa_wang
