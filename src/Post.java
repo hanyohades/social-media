@@ -31,7 +31,7 @@
          System.out.print(author);
          // print out the date
          System.out.print("\t\t" + (edited ? "Edited" : "Posted") + " on ");
-         SimpleDateFormat fomatter = new SimpleDateFormat("MM/DD/yyy HH:mm:ss");
+         SimpleDateFormat fomatter = new SimpleDateFormat("MM/dd/yyy HH:mm:ss");
          System.out.println(fomatter.format(timePosted));
          // print the content of the post
          System.out.println("\n" + content);
